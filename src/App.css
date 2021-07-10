@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+    margin-top: 40px;
+    color: #004a76;
+    font-weight: 900; }
+
+#freeconsultbtn {
+    margin-right: 10%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#jumbotron {
+  padding-top: 20px;
+  padding-bottom: 0;
+  margin: 0;
+  color: #004a76;
+  background-color: #ffdd9f;
+}
+.jumbocotainer {
+  min-width: 100%;
+} 
+
+#consultSubmitBbutton {
+  background-color: #007e9c;
+  font-weight: 700; 
+  margin-right: 15%;
+  margin-bottom: 15%;
+}
+  
+.site-footer {
+  background-image: linear-gradient(to bottom, #ffdd9f, white);
+  padding: 20px 0;
+  margin-top: 30px; }
+
+
+
+.navbar {
+  background-color: #ffdd9f;
+  font-weight: 500; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navLink {
+  padding-right: 5px;
+  padding-left: 5px; 
+  font-size: 22px;
+  color: grey;
 }
 
-.App-link {
-  color: #61dafb;
+.active {
+    color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+h3 {
+    color: #f0533a;
+    font-weight: 600; }
+
+    .content-row {
+        margin-bottom: 30px; }
