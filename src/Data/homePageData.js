@@ -10,7 +10,7 @@ export const homePageData = [
     {
         id: 1,
         title: "Family Oriented Approach",
-        content: `"It takes a village to raise a child."<br> We believe that our clients are part of a community, a family, and in order to see changes in your or your child's speech and language skills, an approach that targets and involves the entire village is required.`,
+        content: `"It takes a village to raise a child." We believe that our clients are part of a community, a family, and in order to see changes in your or your child's speech and language skills, an approach that targets and involves the entire village is required.`,
         image: "../images/holdgirl.jpg",
         alt: "Clincian holding child"
 

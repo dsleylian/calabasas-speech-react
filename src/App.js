@@ -3,12 +3,11 @@ import './App.css';
 import Header from './components/HeaderComponent';
 import Footer from './components/FooterComponent';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
+import { connect} from 'react-redux';
 import Home from './components/HomeComponent';
 import AboutUs from './components/AboutUsComponent';
 import FreeResources from './components/FreeResourcesComponent';
 import ContactUs from './components/ContactUsComponent'
-
-
 
 function App() {
   return (
