@@ -32,7 +32,7 @@ h2 {
 .site-footer {
   background-image: linear-gradient(to bottom, #ffdd9f, white);
   padding: 20px 0;
-  margin-top: 30px; }
+ }
 
 
 
@@ -62,10 +62,6 @@ h3 {
     font-size: 30px;
 }
 
-.home-h3 {
-    font-size: 30px;
-}
-
 .home-p {
     font-size: 22px;
 }
@@ -73,8 +69,10 @@ h3 {
     margin-bottom: 30px; }
 
 h5 {
-    font-size: 26px;
-    color: #007e9c; }
+    font-size: 26px !important;
+    color: #007e9c; 
+    margin-top: 15px !important ;
+}
 
 .footer-link {
     color: #004a76 !important; }
@@ -88,7 +86,7 @@ h5 {
 
 .blocksbackground {
     width: 100%;
-    height: 500px;
+    height: 480px;
     position: absolute;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -103,7 +101,76 @@ h5 {
     font-size: 24px; }
     
 @media (max-width: 992px) {
-.locationimage {
-    width: 80px; }
-.location {
-    font-size: 20px; } }
+    .locationimage {
+        width: 80px; }
+    .location {
+        font-size: 20px; } 
+    .blocksbackground {
+        height: 400px;
+    }
+    .aboutush3 {
+        padding-top: 25px; 
+        font-size: 35px;
+    }
+
+}
+
+.meetTeamh4 {
+    padding-top: 35px;
+}
+
+h4 {
+    font-size: 28px; }
+  
+
+.meet-team-p {
+    font-size: 16px; }
+
+p {
+    font-size: 20px; 
+}
+
+.letUsKnowButton {
+    background-color: #007e9c !important;
+    margin-left: 5px;
+}
+
+.modal-body {
+    padding-bottom: 0 !important;
+}
+
+.ModalButton {
+    margin: auto !important;
+    
+}
+
+.ModalContactP {
+    margin: auto;
+}
+
+.in-text-link {
+    color: #00b7b2; }
+  
+.milestone-title {
+color: #007e9c;
+font-size: 22px; }
+
+.blogtitle {
+    font-size: 22px;
+    color: #f0533a;
+    margin-bottom: 0px;
+}
+
+.bloglinks {
+    color: black;
+    font-size: 16px;
+}
+
+.blog-title {
+    margin-top: 30px;
+    text-align: center;
+    color: #007e9c; }
+
+#blogNav {
+    background-color: #00b7b2;
+}

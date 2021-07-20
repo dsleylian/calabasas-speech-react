@@ -1,11 +1,14 @@
-import React, { Component } from 'react'
+import React from 'react'
+import Milestones from './FreeResources/Milestones';
+import BlogComponent from './BlogComponent';
 
-export default class FreeResources extends Component {
-    render() {
+export default function FreeResources() {
+ 
         return (
             <div>
-                <p>Free Resources</p>
+                <BlogComponent />
+                <Milestones />
             </div>
         )
-    }
+    
 }

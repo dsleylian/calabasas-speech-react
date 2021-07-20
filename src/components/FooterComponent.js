@@ -25,7 +25,7 @@ function Footer(props){
                     </div>
                     <div className="col-sm-4 text-center footer-links">
                         <a role="button" className="btn btn-link footer-link" href="tel:+18181231234"><i className="fa fa-phone" />+1-818-123-1234</a><br />
-                        <a role="button" target="_blank" className="btn btn-link footer-link" href="https://www.google.com/maps/"><i className="fa fa-envelope-o" /> 123 Ficitonal Road,  Calabasas, CA, 91302 </a>
+                        <a role="button" target="_blank" rel="noreferrer" className="btn btn-link footer-link" href="https://www.google.com/maps/"><i className="fa fa-envelope-o" /> 123 Ficitonal Road,  Calabasas, CA, 91302 </a>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Nav, Navbar, NavbarBrand, NavbarToggler, Col, Collapse, NavItem, Jumbotron, Row, Button, 
+import { Nav, Navbar, NavbarToggler, Col, Collapse, NavItem, Jumbotron, Row, Button, 
     Modal, ModalHeader, ModalBody, Form, FormGroup, Input, Label } from 'reactstrap';
 import logo from '../images/logo.svg'
 import { NavLink } from 'react-router-dom';
@@ -124,19 +124,19 @@ class Header extends Component {
                                     </Row>
                                 </Col>
                             </FormGroup>
-                            <FormGroup row>
+                            <FormGroup row className="align-items-center">
                                 <Col>
-                                    <p>We will contact you at our earliest availability!</p>
+                                    <p className="ModalContactP">We will contact you at our earliest availability!</p>
                                 </Col>
-                                <Col>
-                                    <Button className="float-right" id="consultSubmitBbutton" type="submit" value="submit">Submit</Button>
+                                <Col className="text-center align-self-center">
+                                    <Button className="ModalButton" id="consultSubmitBbutton" type="submit" value="submit">Submit</Button>
                                 </Col>
                             </FormGroup>
                         </Form>
                     </ModalBody>
                 </Modal>
 
-                <Navbar light sticky="top" expand="md" >
+                <Navbar dark sticky="top" expand="md" >
                     <div className="container">
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar >

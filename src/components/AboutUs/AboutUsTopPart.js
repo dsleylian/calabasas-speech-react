@@ -9,13 +9,8 @@ const mapStateToProps = state => {
 }
 
 class AboutUsTopPart extends Component {
-    constructor(props) {
-        super(props);
-    }
-   
-
     render() {
-        {console.log(this.props.aboutUsSettingData);}
+        
         return (
             <div className="aboutUsTopDiv">
             <div className="blocksbackground">
@@ -35,7 +30,7 @@ class AboutUsTopPart extends Component {
                             <div className="col" key={setting.id} >
                                 <div className="row"> 
                                     <div className="col text-center"> 
-                                        <img className="locationimage" src={setting.image} alt={setting.alt} width="140px" />
+                                        <img className="locationimage" src={setting.image} alt={setting.alt} width="110px" />
                                     </div>
                                 </div>
                                 <div className="row">
