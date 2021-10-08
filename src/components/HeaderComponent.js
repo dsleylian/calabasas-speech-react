@@ -112,7 +112,7 @@ class Header extends Component {
                                             </Label>
                                             <Label check>
                                                 <Col>
-                                                    <Input  type="checkbox" name="times" innerRef={input => this.tuesday = input} /> 12noon-4pm
+                                                    <Input  type="checkbox" name="times" innerRef={input => this.tuesday = input} /> 12noon-5pm
                                                 </Col>
                                             </Label>
                                             <Label check>
