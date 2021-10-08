@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Col,  Row, Button, Form, FormGroup, Input, Label } from 'reactstrap';
-import { Control, LocalForm, Errors } from 'react-redux-form';
+import { Col,  Row, Button, Label } from 'reactstrap';
+import { Control, Form, Errors, actions } from 'react-redux-form';
 
 
 const required = val => val && val.length;
@@ -30,6 +30,7 @@ export default class ContactUs extends Component {
     handleSubmit(values) {
         console.log("Current state is: " + JSON.stringify(values));
         alert("Current state is: " + JSON.stringify(values));
+        this.props.resetContactForm();
     }
 
 
@@ -56,7 +57,7 @@ export default class ContactUs extends Component {
                     </div>
                 </div>
                     <div className="col col-md-9 mt-3 mx-auto">
-                        <LocalForm className="contactUsForm" onSubmit={values => this.handleSubmit(values)}>
+                        <Form model="contactUsForm" className="contactUsForm" onSubmit={values => this.handleSubmit(values)}>
                             <Row className="form-group">
                                 <Label sm={3} htmlFor="clientName">Name</Label>
                                 <Col>
@@ -160,7 +161,7 @@ export default class ContactUs extends Component {
                                     <Button className="ModalButton" id="consultSubmitBbutton" type="submit" value="submit">Submit</Button>
                                 </Col>
                             </Row>
-                        </LocalForm>
+                        </Form>
                     </div>
                 </div>
             </div>

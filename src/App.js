@@ -4,6 +4,7 @@ import Header from './components/HeaderComponent';
 import Footer from './components/FooterComponent';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 import { connect} from 'react-redux';
+import { actions } from 'react-redux-form';
 
 import Home from './components/HomeComponent';
 import AboutUs from './components/AboutUsComponent';
@@ -17,6 +18,10 @@ const mapStateToProps = state => {
         blogData: state.DataReducer.blogData,
     }
 }
+
+const mapDispatchToProps = {
+    resetContactForm: () => (actions.reset('contactUsForm'))
+};
 
 class App extends Component {
 
@@ -37,7 +42,7 @@ class App extends Component {
                 <Route exact path='/' component={Home}/>
                 <Route exact path='/aboutus' component={AboutUs}/>
                 <Route path='/freeresources'  component={FreeResources}/>
-                <Route exact path='/contactus' component={ContactUs}/>
+                <Route exact path='/contactus' render={() => <ContactUs resetContactForm={this.props.resetContactForm} /> } />
                 <Route path='blog/:blogid' component={BlogWithId} />
                 <Route path='/blog/:blogid' component={BlogWithId} />
                 <Route exact path='/blog' component={BlogComponent} />
@@ -49,4 +54,4 @@ class App extends Component {
     }
 }
 
-export default withRouter(connect(mapStateToProps)(App));
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(App));
