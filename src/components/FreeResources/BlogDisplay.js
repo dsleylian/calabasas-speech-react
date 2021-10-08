@@ -5,7 +5,7 @@ import BlogNav from './BlogNav';
 
 const mapStateToProps = state => {
     return {
-        blogData: state.blogData,
+        blogData: state.DataReducer.blogData,
     }
 }
 

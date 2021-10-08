@@ -4,7 +4,7 @@ import { withRouter } from 'react-router-dom';
 
 const mapStateToProps = state => {
     return {
-    homePageData: state.homePageData,
+    homePageData: state.DataReducer.homePageData,
     }
 }
 

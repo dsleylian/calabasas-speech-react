@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const mapStateToProps = state => {
     return {
-        blogData: state.blogData,
+        blogData: state.DataReducer.blogData,
     }
 }
 

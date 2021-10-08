@@ -3,7 +3,7 @@ import { aboutUsSettingData } from "../Data/aboutUsSettingsData";
 import { meetTheTeamData } from "../Data/meetTheTeamData";
 import { blogData } from "../Data/blogData";
 
-export const reducer = (state = {homePageData: homePageData,
+export const DataReducer = (state = {homePageData: homePageData,
                                  aboutUsSettingData: aboutUsSettingData,
                                  meetTheTeamData: meetTheTeamData,
                                  blogData: blogData,

@@ -4,7 +4,7 @@ import { withRouter } from 'react-router-dom';
 
 const mapStateToProps = state => {
     return {
-        aboutUsSettingData: state.aboutUsSettingData,
+        aboutUsSettingData: state.DataReducer.aboutUsSettingData,
     }
 }
 

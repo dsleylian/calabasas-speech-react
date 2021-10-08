@@ -1,9 +1,17 @@
-import { createStore, combineReducers } from 'redux';
-import {reducer } from './reducer';
+import { createStore, combineReducers, applyMiddleware } from 'redux';
+import { DataReducer } from './reducer';
 import { createForms } from 'react-redux-form';
 
 
-const store = createStore(reducer);
 
+export const ConfigureStore = () => {
+  const store = createStore(
+    combineReducers({
+        DataReducer
+    }), 
+    applyMiddleware()
+  );
 
-export default store;
+  return store;
+  }
+

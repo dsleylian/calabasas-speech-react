@@ -14,7 +14,7 @@ import BlogDisplay from './components/FreeResources/BlogDisplay';
 
 const mapStateToProps = state => {
     return {
-        blogData: state.blogData,
+        blogData: state.DataReducer.blogData,
     }
 }
 
