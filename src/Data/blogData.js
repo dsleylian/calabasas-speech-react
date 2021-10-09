@@ -17,7 +17,8 @@ export const blogData = [
         info3Title: "But what do I do?",
         info3image: "../images/screentimefamilysqr.jpg",
         info3imageAlt: "family on ipad together",
-        info3: `Screen time, in any form, should be a reward - an activitiy the child earns for complete an important or challenging task. It shouldnt be the child's go-to activity when they are bored. For example, if your child struggles with trying new foods, after a meal time in which they tried a new food, they earn 10 minutes on the ipad, or can was a youtube video of their choice on the smart TV. It is important to keep the duration of the reward activity specific and to stick by it, to make the reward more desirable. The ideal way to keep children engaged and not "zoning out" while using a screen, is to do so together! Make it a partnered or family activity, in which you encourage your child to ask questions, comment, point things out to you/others. Make screen time a social activity full with interaction, not an activity where we "zone out".` ,
+        info3: `Screen time, in any form, should be a reward - an activitiy the child earns for completing an important or challenging task. It shouldnt be the child's go-to activity when they are bored. For example, if your child struggles with trying new foods, after a meal time in which they tried a new food, they earn 10 minutes on the ipad, or can watch a youtube video of their choice on the smart TV. It is important to keep the duration of the reward activity specific and to stick by it, to make the reward more desirable. The ideal way to keep children engaged and not "zoning out" while using a screen, is to do so together! Make it a partnered or family activity, in which you encourage your child to ask questions, comment, point things out to you/others. Make screen time a social activity full with interaction, not an activity where we "zone out".` ,
+        comments: []
     },
     {
         id: 1,
@@ -36,6 +37,7 @@ export const blogData = [
         info3Title: "Increase your child's vocabulary",
         info3image: "../images/fathersonbeach.jpg", 
         info3imageAlt: "father and son at the beach", 
+        comments: []
     },
     {
         id: 2,
@@ -54,6 +56,7 @@ export const blogData = [
         info3Title: "Great time to practice sounds" ,
         info3image: "../images/blocksbackground.jpeg" , 
         info3imageAlt: "playing with letter blocks", 
+        comments: []
     },
     {
         id: 3,
@@ -72,5 +75,6 @@ export const blogData = [
         info3Title: "Should I let me child read alone?" ,
         info3image: "../images/readbookrussian.jpg" ,
         info3imageAlt : "boy reading a book in Russian", 
+        comments: []
     },
 ]

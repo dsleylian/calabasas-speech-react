@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { connect} from 'react-redux';
 import BlogNav from './BlogNav';
+import BlogComment from './BlogComment';
+import BlogComments from './BlogComments';
 
 const mapStateToProps = state => {
     return {
@@ -9,17 +10,15 @@ const mapStateToProps = state => {
     }
 }
 
-function BlogDisplay({blog}) {
+function BlogDisplay({blog, addComment}) {
 
     let link;
 
     if(blog.hasOwnProperty("info2Link")){
         link = <p>
                     <a className="in-text-link" target="_blank" rel="noreferrer" href={blog.info2Link} >Read the article here.</a>
-              </p>
+        </p>
     }
-
-
     
     return (
         <div>
@@ -55,6 +54,8 @@ function BlogDisplay({blog}) {
                     </div>
                 </div>
             </div>
+            <BlogComment blogId={blog.id} addComment={addComment} />
+            <BlogComments blogId={blog.id} />
             <BlogNav />
         </div>
     )

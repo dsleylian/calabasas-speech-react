@@ -4,7 +4,7 @@ import LetUsKnowModal from './LetUsKnowModal';
 
 const mapStateToProps = state => {
     return {
-        meetTheTeamData: state.DataReducer.meetTheTeamData,
+        meetTheTeamData: state.DataReducer.meetTheTeamData
     }
 }
 

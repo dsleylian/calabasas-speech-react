@@ -183,3 +183,9 @@ font-size: 22px; }
     box-shadow: 6px 6px 20px rgba(0, 74, 118, 0.2), -1px -1px 20px rgba(0, 74, 118, 0.2);
 
 }
+
+#commentSubmitButton {
+    background-color: #007e9c;
+    font-weight: 700; 
+   
+}
