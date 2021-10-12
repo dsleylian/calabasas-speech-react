@@ -4,7 +4,7 @@ import { connect} from 'react-redux';
 
 const mapStateToProps = state => {
   return {
-      CommentsData: state.commentsReducer.CommentsData
+    CommentsDataUpdated: state.commentsReducer.CommentsDataUpdated
   }
 }
 
@@ -12,23 +12,24 @@ function BlogComments(props) {
 
   console.log(props);
   
-  const currentBlog = props.CommentsData.filter(comment => comment.blogId === props.blogId)
+  const currentBlog = props.CommentsDataUpdated.filter(comment => comment.blogId === props.blogId)
   
 
   return (
-    <div>
+    <div className="col col-md-10 commentsSection mx-auto my-4">
       {currentBlog.map(comment => {
         return(
-        <div key={comment.id}> 
-          <div>{comment.text}</div>
-          <div>--{comment.author}, {comment.date}</div>
+        <div key={comment.id} className="individualComment col col-md-9 mx-auto mt-2 "> 
+          <div>"{comment.text}"</div>
           <div>Rating: {comment.rating}</div>
+          <div>--{comment.author}, {new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: '2-digit'}).format(new Date(Date.parse(comment.date)))}</div>
+          
         </div>
         );
       }
       )
       } 
-      {console.log(props.CommentsData)}
+      {console.log(props.CommentsDataUpdated)}
     </div>
   )
 }

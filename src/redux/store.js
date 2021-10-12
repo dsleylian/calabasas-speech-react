@@ -1,5 +1,5 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux';
-import { DataReducer } from './reducer';
+import { DataReducer } from './Datareducer';
 import { createForms } from 'react-redux-form';
 import { InitialForm } from './forms';
 import { commentsReducer } from './commentsReducer';

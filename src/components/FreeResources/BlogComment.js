@@ -28,6 +28,7 @@ class BlogComment extends Component {
       this.toggleModal();
      // this.props.postComment(this.props.campsiteId, values.rating, values.author, values.text);
       this.props.addComment(this.props.blogId, values.rating, values.author, values.text )
+     
   }
 
   render(){
