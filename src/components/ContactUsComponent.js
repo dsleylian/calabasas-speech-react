@@ -95,52 +95,52 @@ export default class ContactUs extends Component {
                                 <Col>
                                     <Row>
                                         <Col>
-                                            <Label check>
+                                            <Label check className="label-formatting">
                                                 <Col>
-                                                    <Control.checkbox model=".monday" name="monday" className="form-check-input" /> Monday
+                                                    <Control.checkbox model=".monday" name="monday" className="form-check-input center" /> Monday
                                                 </Col>
                                             </Label>
-                                            <Label check>
+                                            <Label check className="label-formatting">
                                                 <Col>
                                                     <Control.checkbox model=".tuesday" name="tuesday" className="form-check-input" /> Tuesday
                                                 </Col>
                                             </Label>
-                                            <Label check>
+                                            <Label check className="label-formatting">
                                                 <Col>
-                                                    <Control.checkbox model=".wednesday" name="wednesday" className="form-check-input" /> Wednesday
+                                                    <Control.checkbox model=".wednesday" name="wednesday" className="form-check-input center" /> Wednesday
                                                 </Col>
                                             </Label>
-                                            <Label check>
+                                            <Label check className="label-formatting">
                                                 <Col>
-                                                    <Control.checkbox model=".thursday" name="thursday" className="form-check-input" /> Thursday
+                                                    <Control.checkbox model=".thursday" name="thursday" className="form-check-input center" /> Thursday
                                                 </Col>
                                             </Label>
-                                            <Label check>
+                                            <Label check className="label-formatting">
                                                 <Col>
-                                                    <Control.checkbox model=".friday" name="friday" className="form-check-input" /> Friday
+                                                    <Control.checkbox model=".friday" name="friday" className="form-check-input center" /> Friday
                                                 </Col>
                                             </Label>
-                                            <Label check>
+                                            <Label check className="label-formatting">
                                                 <Col>
-                                                    <Control.checkbox model=".saturday" name="saturday" className="form-check-input" /> Saturday
+                                                    <Control.checkbox model=".saturday" name="saturday" className="form-check-input center" /> Saturday
                                                 </Col>
                                             </Label>
                                             
                                         </Col>
                                         <Col>
-                                            <Label check>
+                                            <Label check className="label-formatting">
                                                 <Col>
-                                                    <Control.checkbox model=".time812" name="time812" className="form-check-input" /> 8am-12noon
+                                                    <Control.checkbox model=".time812" name="time812" className="form-check-input center" /> 8am-12noon
                                                 </Col>
                                             </Label>
-                                            <Label check>
+                                            <Label check className="label-formatting">
                                                 <Col>
-                                                    <Control.checkbox model=".time125" name="time125" className="form-check-input" /> 12noon-5pm
+                                                    <Control.checkbox model=".time125" name="time125" className="form-check-input center" /> 12noon-5pm
                                                 </Col>
                                             </Label>
-                                            <Label check>
+                                            <Label check className="label-formatting">
                                                 <Col>
-                                                    <Control.checkbox model=".time59" name="time59" className="form-check-input" /> 5pm-9pm
+                                                    <Control.checkbox model=".time59" name="time59" className="form-check-input center" /> 5pm-9pm
                                                 </Col>
                                             </Label>
                                         </Col>

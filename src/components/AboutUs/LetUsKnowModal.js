@@ -21,16 +21,16 @@ export default class LetUsKnowModal extends Component {
 
         if(this.props.therapist.button === "Flip") {
             groupTherapy = <FormGroup row >
-                                <Label sm={5} htmlFor="grouptherapt">Are you interested in group thearpy?</Label>
-                                <Col className="">
-                                    <Label >
+                                <Label sm={5} htmlFor="grouptherapy">Are you interested in group thearpy?</Label>
+                                <Col >
+                                    <Label className="label-formatting" >
                                         <Col >
-                                            <Input  type="radio" name="grouptherapy"  id="yes" innerRef={input => this.monday = input} /> Yes
+                                            <Input className="center" type="radio" name="grouptherapy"  id="yes" innerRef={input => this.grouptherapy = input} /> Yes
                                         </Col>
                                     </Label>
                                     <Label >
                                         <Col>
-                                            <Input  type="radio" name="grouptherapy"  id="no" innerRef={input => this.monday = input} /> No
+                                            <Input className="center"  type="radio" name="grouptherapy"  id="no" innerRef={input => this.grouptherapy = input} /> No
                                         </Col>
                                     </Label>
                                 </Col>
@@ -65,24 +65,24 @@ export default class LetUsKnowModal extends Component {
                             <FormGroup row >
                                 <Label sm={3} htmlFor="preferredsetting">Preferred Setting</Label>
                                 <Col className="my-auto">
-                                    <Label >
+                                    <Label className="label-formatting" >
                                         <Col c>
-                                            <Input  type="checkbox" name="preferredsetting"  id="inhome" innerRef={input => this.monday = input} /> In Home
+                                            <Input className="center" type="checkbox" name="preferredsetting"  id="inhome" innerRef={input => this.monday = input} /> In Home
                                         </Col>
                                     </Label>
-                                    <Label >
+                                    <Label className="label-formatting">
                                         <Col>
-                                            <Input  type="checkbox" name="preferredsetting"  id="inoffice" innerRef={input => this.monday = input} /> Office
+                                            <Input className="center" type="checkbox" name="preferredsetting"  id="inoffice" innerRef={input => this.monday = input} /> Office
                                         </Col>
                                     </Label>
-                                    <Label >
+                                    <Label className="label-formatting">
                                         <Col>
-                                            <Input  type="checkbox" name="preferredsetting"  id="onsite" innerRef={input => this.monday = input} /> On Site
+                                            <Input className="center" type="checkbox" name="preferredsetting"  id="onsite" innerRef={input => this.monday = input} /> On Site
                                         </Col>
                                     </Label>
-                                    <Label >
+                                    <Label className="label-formatting">
                                         <Col>
-                                            <Input  type="checkbox" name="preferredsetting"  id="tele-therapy" innerRef={input => this.monday = input} /> Tele-Therapy
+                                            <Input className="center" type="checkbox" name="preferredsetting"  id="tele-therapy" innerRef={input => this.monday = input} /> Tele-Therapy
                                         </Col>
                                     </Label>
                                 </Col>

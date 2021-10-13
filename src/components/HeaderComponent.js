@@ -72,52 +72,52 @@ class Header extends Component {
                                 <Col>
                                     <Row>
                                         <Col>
-                                            <Label check>
+                                            <Label check className="label-formatting">
                                                 <Col>
-                                                    <Input  type="checkbox" name="days" innerRef={input => this.monday = input} /> Monday
+                                                    <Input className="center" type="checkbox" name="days" innerRef={input => this.monday = input} /> Monday
                                                 </Col>
                                             </Label>
-                                            <Label check>
+                                            <Label check className="label-formatting">
                                                 <Col>
-                                                    <Input  type="checkbox" name="tuesday" innerRef={input => this.tuesday = input} /> Tuesday
+                                                    <Input className="center" type="checkbox" name="tuesday" innerRef={input => this.tuesday = input} /> Tuesday
                                                 </Col>
                                             </Label>
-                                            <Label check>
+                                            <Label check className="label-formatting">
                                                 <Col>
-                                                    <Input  type="checkbox" name="days" innerRef={input => this.wednesday = input} /> Wednesday
+                                                    <Input className="center" type="checkbox" name="days" innerRef={input => this.wednesday = input} /> Wednesday
                                                 </Col>
                                             </Label>
-                                            <Label check>
+                                            <Label check className="label-formatting">
                                                 <Col>
-                                                    <Input  type="checkbox" name="days" innerRef={input => this.thursday = input} /> Thursday
+                                                    <Input className="center" type="checkbox" name="days" innerRef={input => this.thursday = input} /> Thursday
                                                 </Col>
                                             </Label>
-                                            <Label check>
+                                            <Label check className="label-formatting">
                                                 <Col>
-                                                    <Input  type="checkbox" name="days" innerRef={input => this.friday = input} /> Friday
+                                                    <Input className="center" type="checkbox" name="days" innerRef={input => this.friday = input} /> Friday
                                                 </Col>
                                             </Label>
-                                            <Label check>
+                                            <Label check className="label-formatting">
                                                 <Col>
-                                                    <Input  type="checkbox" name="days" innerRef={input => this.saturday = input} /> Saturday
+                                                    <Input className="center" type="checkbox" name="days" innerRef={input => this.saturday = input} /> Saturday
                                                 </Col>
                                             </Label>
                                             
                                         </Col>
                                         <Col>
-                                            <Label check>
+                                            <Label check className="label-formatting">
                                                 <Col>
-                                                    <Input  type="checkbox" name="times" innerRef={input => this.monday = input} /> 8am-12noon
+                                                    <Input className="center" type="checkbox" name="times" innerRef={input => this.monday = input} /> 8am-12noon
                                                 </Col>
                                             </Label>
-                                            <Label check>
+                                            <Label check className="label-formatting">
                                                 <Col>
-                                                    <Input  type="checkbox" name="times" innerRef={input => this.tuesday = input} /> 12noon-5pm
+                                                    <Input className="center" type="checkbox" name="times" innerRef={input => this.tuesday = input} /> 12noon-5pm
                                                 </Col>
                                             </Label>
-                                            <Label check>
+                                            <Label check className="label-formatting">
                                                 <Col>
-                                                    <Input  type="checkbox" name="times" innerRef={input => this.wednesday = input} /> 5pm-9pm
+                                                    <Input className="center" type="checkbox" name="times" innerRef={input => this.wednesday = input} /> 5pm-9pm
                                                 </Col>
                                             </Label>
                                         </Col>

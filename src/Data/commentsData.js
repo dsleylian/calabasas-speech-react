@@ -10,14 +10,14 @@ export const CommentsData = [
     "id": 1,
     "blogId": 1,
     "rating": 5,
-    "text": "Can't wait to use this with my son. Thanks for the tips",
+    "text": "Can't wait to use these with my son. Thanks for the tips",
     "author": "David Goldberg",
     "date": "2021-10-20T12:40Z"
   },  {
     "id": 2,
     "blogId": 2,
     "rating": 5,
-    "text": "Great tips for day to day stuff, thnaks!",
+    "text": "Great tips for day to day stuff, thanks!",
     "author": "Bella Lipton",
     "date": "2021-09-15T09:15Z"
   },  {

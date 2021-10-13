@@ -202,3 +202,16 @@ font-size: 22px; }
     border: 2px rgba(0, 74, 118, 0.1) solid;
     border-radius: 15px;
 }
+
+.center {
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+    margin-left: -17px !important;
+    
+}
+
+.label-formatting {
+    
+    padding-right: 10px;
+}
