@@ -16,10 +16,10 @@ function Therapists(props) {
                     {props.meetTheTeamData.map(therapist => {
                             return (
                                 <div key={therapist.id} className="row content-row align-items-center ">
-                                    <div className="col-12 col-md text-center text-md-right">
+                                    <div className="col-12 col-md text-center">
                                         <img src={therapist.image} alt={therapist.alt} width="300px" />
                                     </div>
-                                    <div className="col col-lg-6 offset-1">
+                                    <div className="col col-lg-6  mr-5">
                                         <h5>{therapist.title}</h5>
                                         <p>{therapist.credentials}</p>
                                         <p className="meet-team-p">{therapist.info1}</p>

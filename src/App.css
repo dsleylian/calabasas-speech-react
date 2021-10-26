@@ -1,6 +1,6 @@
 body {
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 20px; 
+font-family: 'Libre Franklin', sans-serif;
+font-size: 20px; 
 }
 
 h2 {
@@ -10,46 +10,71 @@ h2 {
 
 #freeconsultbtn {
     margin-right: 10%;
+    background-color: #443742;
+}
+
+button.btn-close {
+    font-size: 20px;
+}
+
+#page-title {
+    font-size: 30px;
+    color: black;
 }
 
 #jumbotron {
-  padding-top: 20px;
-  padding-bottom: 0;
-  margin: 0;
-  background-color: #ffdd9f;
+padding-top: 5px;
+padding-bottom: 0;
+margin: 0;
+background-color: #519872;
 }
 .jumbocotainer {
-  min-width: 100%;
+min-width: 100%;
 } 
 
 #consultSubmitBbutton {
-  background-color: #007e9c;
-  font-weight: 700; 
-  margin-right: 15%;
-  margin-bottom: 15%;
+background-color: #007e9c;
+font-weight: 700; 
+margin-right: 15%;
+margin-bottom: 15%;
 }
-  
+
 .site-footer {
-  background-image: linear-gradient(to bottom, #ffdd9f, white);
-  padding: 20px 0;
- }
-
-
+background-image: linear-gradient(to bottom, #519872, white);
+padding: 20px 0;
+}
 
 .navbar {
-  background-color: #ffdd9f;
-  font-weight: 500; 
+background-color: #519872;
+font-weight: 500; 
+padding: 4px !important;
 }
 
 .navLink {
-  padding-right: 5px;
-  padding-left: 5px; 
-  font-size: 22px;
-  color: grey;
+padding-right: 5px;
+padding-left: 5px; 
+font-size: 22px;
+color: #443742;
+}
+
+.navLinkBlog {
+    padding-right: 5px;
+    padding-left: 5px; 
+    font-size: 22px;
+    color: white;
 }
 
 .active {
     color: black;
+}
+
+.nav-logo {
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+.sticky-top .nav-logo{
+    opacity: 1;
 }
 
 .aboutUsTopDiv {
@@ -75,7 +100,7 @@ h5 {
 }
 
 .footer-link {
-    color: #004a76 !important; }
+    color: #443742 !important; }
 
 .aboutush3 {
     text-align: center;
@@ -121,7 +146,7 @@ h5 {
 
 h4 {
     font-size: 28px; }
-  
+
 
 .meet-team-p {
     font-size: 16px; }
@@ -150,7 +175,7 @@ p {
 
 .in-text-link {
     color: #00b7b2; }
-  
+
 .milestone-title {
 color: #007e9c;
 font-size: 22px; }
@@ -186,8 +211,7 @@ font-size: 22px; }
 
 #commentSubmitButton {
     background-color: #007e9c;
-    font-weight: 700; 
-   
+    font-weight: 700;
 }
 
 .commentsSection {
@@ -203,15 +227,26 @@ font-size: 22px; }
     border-radius: 15px;
 }
 
+.comment-text {
+    color:grey;
+}
+
 .center {
     position: relative;
     top: 30%;
     transform: translateY(-50%);
     margin-left: -17px !important;
-    
 }
 
 .label-formatting {
-    
     padding-right: 10px;
+}
+
+.navLogo {
+    opacity: 0;
+    margin-right: 20px;
+}
+
+.showLogo {
+    opacity: 1;
 }

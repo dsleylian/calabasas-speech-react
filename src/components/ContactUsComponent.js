@@ -102,7 +102,7 @@ export default class ContactUs extends Component {
                                             </Label>
                                             <Label check className="label-formatting">
                                                 <Col>
-                                                    <Control.checkbox model=".tuesday" name="tuesday" className="form-check-input" /> Tuesday
+                                                    <Control.checkbox model=".tuesday" name="tuesday" className="form-check-input center" /> Tuesday
                                                 </Col>
                                             </Label>
                                             <Label check className="label-formatting">
