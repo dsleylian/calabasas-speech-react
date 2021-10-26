@@ -11,6 +11,7 @@ h2 {
 #freeconsultbtn {
     margin-right: 10%;
     background-color: #443742;
+    font-size: 18px;
 }
 
 button.btn-close {
@@ -18,7 +19,7 @@ button.btn-close {
 }
 
 #page-title {
-    font-size: 30px;
+    font-size: 24px;
     color: black;
 }
 
@@ -26,7 +27,7 @@ button.btn-close {
 padding-top: 5px;
 padding-bottom: 0;
 margin: 0;
-background-color: #519872;
+background-color: #89c782;
 }
 .jumbocotainer {
 min-width: 100%;
@@ -40,12 +41,12 @@ margin-bottom: 15%;
 }
 
 .site-footer {
-background-image: linear-gradient(to bottom, #519872, white);
+background-image: linear-gradient(to bottom, #89c782, white);
 padding: 20px 0;
 }
 
 .navbar {
-background-color: #519872;
+background-color: #89c782;;
 font-weight: 500; 
 padding: 4px !important;
 }
@@ -197,7 +198,7 @@ font-size: 22px; }
     color: #007e9c; }
 
 #blogNav {
-    background-color: #00b7b2;
+    background-color: #007e9c;
 }
 
 .contactUsForm {

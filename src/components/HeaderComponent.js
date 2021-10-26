@@ -46,13 +46,13 @@ function Header() {
             <Jumbotron fluid id="jumbotron">
                 <div className="container jumbocotainer" >
                     <div className="row align-items-center ">
-                        <div className="col col-lg-4">
+                        <div className="col col-lg-3">
                             <a href="/"><img id="logo" src={logo} alt="Calabasas Speech logo" width="300"/></a>
                         </div>
                         <div className="col d-none d-lg-block text-center" >
                             <h2 id="page-title">Speech and Language Services</h2>
                         </div>
-                        <div className="col col-lg-3 text-right App">
+                        <div className="col col-lg-3 text-right text-lg-center App">
                             <Button className="btn btn-lg freeconsult" onClick={openModal} id="freeconsultbtn">Free Consultation
                             </Button>
                         </div>
