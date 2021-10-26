@@ -11,13 +11,13 @@ class BlogComment extends Component {
     state = {
         isModalOpen: false,
         touched: {
-        rating: false
+            rating: false
         }
     };
 
     toggleModal = () => {
         this.setState({
-        isModalOpen: !this.state.isModalOpen
+            isModalOpen: !this.state.isModalOpen
         });
     };
 

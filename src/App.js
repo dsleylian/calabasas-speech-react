@@ -29,29 +29,29 @@ class App extends Component {
 
     render() {
     
-    const BlogWithId = ({match}) => {
-        const currentBlog = this.props.blogData.filter(blog => blog.id === +match.params.blogid)[0];
+        const BlogWithId = ({match}) => {
+            const currentBlog = this.props.blogData.filter(blog => blog.id === +match.params.blogid)[0];
+            return (
+                <BlogDisplay blog={currentBlog} addComment={this.props.addComment}/>
+            );
+        }
+
+
         return (
-            <BlogDisplay blog={currentBlog} addComment={this.props.addComment}/>
+            <div className="App">
+                <Header />
+                    <Switch>
+                        <Route exact path='/' component={Home}/>
+                        <Route exact path='/aboutus' component={AboutUs}/>
+                        <Route path='/freeresources'  component={FreeResources}/>
+                        <Route exact path='/contactus' render={() => <ContactUs resetContactForm={this.props.resetContactForm} /> } />
+                        <Route path='/blog/:blogid' component={BlogWithId} />
+                        <Route exact path='/blog' component={BlogComponent} />
+                        <Redirect to='/' /> 
+                    </Switch>
+                <Footer />
+            </div>
         );
-    }
-
-
-  return (
-    <div className="App">
-        <Header />
-            <Switch>
-                <Route exact path='/' component={Home}/>
-                <Route exact path='/aboutus' component={AboutUs}/>
-                <Route path='/freeresources'  component={FreeResources}/>
-                <Route exact path='/contactus' render={() => <ContactUs resetContactForm={this.props.resetContactForm} /> } />
-                <Route path='/blog/:blogid' component={BlogWithId} />
-                <Route exact path='/blog' component={BlogComponent} />
-                <Redirect to='/' /> 
-              </Switch>
-        <Footer />
-    </div>
-  );
     }
 }
 
