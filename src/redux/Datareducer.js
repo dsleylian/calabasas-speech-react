@@ -4,9 +4,9 @@ import { meetTheTeamData } from "../Data/meetTheTeamData";
 import { blogData } from "../Data/blogData";
 
 export const DataReducer = (state = {homePageData: homePageData,
-                                 aboutUsSettingData: aboutUsSettingData,
-                                 meetTheTeamData: meetTheTeamData,
-                                 blogData: blogData,
+                                aboutUsSettingData: aboutUsSettingData,
+                                meetTheTeamData: meetTheTeamData,
+                                blogData: blogData,
                                 }, action) => {
     switch(action.Type){
         default:
