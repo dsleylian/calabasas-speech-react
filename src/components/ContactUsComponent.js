@@ -61,6 +61,7 @@ export default class ContactUs extends Component {
                             <Row className="form-group">
                                 <Label sm={3} htmlFor="clientName">Name</Label>
                                 <Col>
+                                    {/* eslint-disable-next-line */}
                                     <Control.text model=".clientName" id="clientName" name="clientName" className="form-control" validators={{ required }} />
                                     <Errors 
                                         className="text-danger" model=".clientName" show="touched" component="div" messages={{ required: "Required" }}
@@ -70,6 +71,7 @@ export default class ContactUs extends Component {
                             <Row className="form-group">
                                 <Label sm={3} htmlFor="consultPhoneNumber">Phone Number</Label>
                                 <Col>
+                                    {/* eslint-disable-next-line */}
                                     <Control.text model=".consultPhoneNumber" type="text" id="consultPhoneNumber" name="consultPhoneNumber" className="form-control" validators={{ required, isNumber }} />
                                     <Errors 
                                         className="text-danger" model=".consultPhoneNumber" show="touched" component="div" messages={{ required: "Required", isNumber: "Must be a number"}}
@@ -79,6 +81,7 @@ export default class ContactUs extends Component {
                             <Row className="form-group">
                                 <Label sm={3} htmlFor="email">Email</Label>
                                 <Col>
+                                    {/* eslint-disable-next-line */}
                                     <Control.text model=".email" type="text" id="email" name="email" className="form-control" validators={{ required, validEmail }} />
                                     <Errors 
                                         className="text-danger" model=".email" show="touched" component="div" messages={{ required: "Required", validEmail: "Invalid email address"}}
@@ -97,31 +100,37 @@ export default class ContactUs extends Component {
                                         <Col>
                                             <Label check className="label-formatting">
                                                 <Col>
+                                                    {/* eslint-disable-next-line */}
                                                     <Control.checkbox model=".monday" name="monday" className="form-check-input center" /> Monday
                                                 </Col>
                                             </Label>
                                             <Label check className="label-formatting">
                                                 <Col>
+                                                    {/* eslint-disable-next-line */}
                                                     <Control.checkbox model=".tuesday" name="tuesday" className="form-check-input center" /> Tuesday
                                                 </Col>
                                             </Label>
                                             <Label check className="label-formatting">
                                                 <Col>
+                                                    {/* eslint-disable-next-line */}
                                                     <Control.checkbox model=".wednesday" name="wednesday" className="form-check-input center" /> Wednesday
                                                 </Col>
                                             </Label>
                                             <Label check className="label-formatting">
                                                 <Col>
+                                                    {/* eslint-disable-next-line */}
                                                     <Control.checkbox model=".thursday" name="thursday" className="form-check-input center" /> Thursday
                                                 </Col>
                                             </Label>
                                             <Label check className="label-formatting">
                                                 <Col>
+                                                    {/* eslint-disable-next-line */}
                                                     <Control.checkbox model=".friday" name="friday" className="form-check-input center" /> Friday
                                                 </Col>
                                             </Label>
                                             <Label check className="label-formatting">
                                                 <Col>
+                                                    {/* eslint-disable-next-line */}
                                                     <Control.checkbox model=".saturday" name="saturday" className="form-check-input center" /> Saturday
                                                 </Col>
                                             </Label>
@@ -130,16 +139,19 @@ export default class ContactUs extends Component {
                                         <Col>
                                             <Label check className="label-formatting">
                                                 <Col>
+                                                    {/* eslint-disable-next-line */}
                                                     <Control.checkbox model=".time812" name="time812" className="form-check-input center" /> 8am-12noon
                                                 </Col>
                                             </Label>
                                             <Label check className="label-formatting">
                                                 <Col>
+                                                    {/* eslint-disable-next-line */}
                                                     <Control.checkbox model=".time125" name="time125" className="form-check-input center" /> 12noon-5pm
                                                 </Col>
                                             </Label>
                                             <Label check className="label-formatting">
                                                 <Col>
+                                                    {/* eslint-disable-next-line */}
                                                     <Control.checkbox model=".time59" name="time59" className="form-check-input center" /> 5pm-9pm
                                                 </Col>
                                             </Label>
@@ -150,6 +162,7 @@ export default class ContactUs extends Component {
                             <Row className="form-group mt-4">
                                 <Label sm={3} htmlFor="formComments">Comments</Label>
                                 <Col>
+                                    {/* eslint-disable-next-line */}
                                     <Control.textarea model=".formComments" id="formComments" name="formComments" rows="6" className="form-control" />
                                 </Col>
                             </Row>
