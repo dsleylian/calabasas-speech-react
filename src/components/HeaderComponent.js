@@ -52,7 +52,7 @@ function Header() {
                         <div className="col d-none d-lg-block text-center" >
                             <h2 id="page-title">Speech and Language Services</h2>
                         </div>
-                        <div className="col col-lg-3 text-right text-lg-center App">
+                        <div className="col col-lg-3 text-end text-lg-center App">
                             <Button className="btn btn-lg freeconsult" onClick={openModal} id="freeconsultbtn">Free Consultation
                             </Button>
                         </div>

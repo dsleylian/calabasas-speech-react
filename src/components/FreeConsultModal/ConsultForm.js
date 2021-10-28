@@ -18,8 +18,9 @@ export default function ConsultForm(){
             </FormGroup>
             <p>Let us know when is a good time for you to talk:</p>
             <FormGroup row >
-                <Col>Days</Col>
-                <Col>Times</Col>
+                <Col className="d-none d-md-block">Days</Col>
+                <Col className="d-none d-md-block">Times</Col>
+                <Col className="d-block d-md-none text-center">Days & Times</Col>
             </FormGroup>
             <FormGroup row check>
                 <Col>
