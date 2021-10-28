@@ -15,11 +15,11 @@ function Therapists(props) {
                 <div>
                     {props.meetTheTeamData.map(therapist => {
                             return (
-                                <div key={therapist.id} className="row content-row align-items-center ">
-                                    <div className="col text-center">
+                                <div key={therapist.id} className="row content-row align-items-center me-1 ">
+                                    <div className="col-md text-center">
                                         <img src={therapist.image} alt={therapist.alt} width="300px" />
                                     </div>
-                                    <div className="col-lg-6 ml-2 mr-5">
+                                    <div className="col-lg-6  mx-3 ">
                                         <h5>{therapist.title}</h5>
                                         <p>{therapist.credentials}</p>
                                         <p className="meet-team-p">{therapist.info1}</p>

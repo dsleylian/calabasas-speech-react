@@ -207,7 +207,25 @@ font-size: 22px; }
     border-radius: 15px;
     padding: 20px;
     box-shadow: 6px 6px 20px rgba(0, 74, 118, 0.2), -1px -1px 20px rgba(0, 74, 118, 0.2);
+}
 
+.form-group {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.checkboxFormat {
+    margin-top: 13px !important;
+}
+
+.checkboxFormatConsult {
+    margin-top: 13px !important;
+    margin-right: 10px;
+}
+
+.label-formatting {
+    padding-right: 25px;
+    padding-left: 10px;
 }
 
 #commentSubmitButton {
@@ -237,10 +255,6 @@ font-size: 22px; }
     top: 30%;
     transform: translateY(-50%);
     margin-left: -17px !important;
-}
-
-.label-formatting {
-    padding-right: 10px;
 }
 
 .navLogo {

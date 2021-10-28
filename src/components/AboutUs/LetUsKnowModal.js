@@ -25,12 +25,12 @@ export default class LetUsKnowModal extends Component {
                                 <Col >
                                     <Label className="label-formatting" >
                                         <Col >
-                                            <Input className="center" type="radio" name="grouptherapy"  id="yes" innerRef={input => this.grouptherapy = input} /> Yes
+                                            <Input className="center checkboxFormat" type="radio" name="grouptherapy"  id="yes" innerRef={input => this.grouptherapy = input} /> Yes
                                         </Col>
                                     </Label>
                                     <Label >
                                         <Col>
-                                            <Input className="center"  type="radio" name="grouptherapy"  id="no" innerRef={input => this.grouptherapy = input} /> No
+                                            <Input className="center checkboxFormat"  type="radio" name="grouptherapy"  id="no" innerRef={input => this.grouptherapy = input} /> No
                                         </Col>
                                     </Label>
                                 </Col>
@@ -67,22 +67,22 @@ export default class LetUsKnowModal extends Component {
                                 <Col className="my-auto">
                                     <Label className="label-formatting" >
                                         <Col c>
-                                            <Input className="center" type="checkbox" name="preferredsetting"  id="inhome" innerRef={input => this.monday = input} /> In Home
+                                            <Input className="center checkboxFormat" type="checkbox" name="preferredsetting"  id="inhome" innerRef={input => this.monday = input} /> In Home
                                         </Col>
                                     </Label>
                                     <Label className="label-formatting">
                                         <Col>
-                                            <Input className="center" type="checkbox" name="preferredsetting"  id="inoffice" innerRef={input => this.monday = input} /> Office
+                                            <Input className="center checkboxFormat" type="checkbox" name="preferredsetting"  id="inoffice" innerRef={input => this.monday = input} /> Office
                                         </Col>
                                     </Label>
                                     <Label className="label-formatting">
                                         <Col>
-                                            <Input className="center" type="checkbox" name="preferredsetting"  id="onsite" innerRef={input => this.monday = input} /> On Site
+                                            <Input className="center checkboxFormat" type="checkbox" name="preferredsetting"  id="onsite" innerRef={input => this.monday = input} /> On Site
                                         </Col>
                                     </Label>
                                     <Label className="label-formatting">
                                         <Col>
-                                            <Input className="center" type="checkbox" name="preferredsetting"  id="tele-therapy" innerRef={input => this.monday = input} /> Tele-Therapy
+                                            <Input className="center checkboxFormat" type="checkbox" name="preferredsetting"  id="tele-therapy" innerRef={input => this.monday = input} /> Tele-Therapy
                                         </Col>
                                     </Label>
                                 </Col>

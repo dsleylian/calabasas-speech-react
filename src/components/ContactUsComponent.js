@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col,  Row, Button, Label } from 'reactstrap';
+import { Col, Row, Button, Label } from 'reactstrap';
 import { Control, Form, Errors } from 'react-redux-form';
 
 
@@ -39,25 +39,27 @@ export default class ContactUs extends Component {
         return (
             <div className="container">
                 <div className="content-row ">
-                    <h3 className="text-center m-3">Contact Us </h3>
-                    <div class="row justify-content-center mt-5">
-                <div class="col col-md-2 text-center text-md-right">
-                    <h4>Call Us</h4>
+                    <h3 className="text-center mt-3">Contact Us </h3>
                 </div>
-                    <div class="col-12 col-md-4 col-lg-3 text-center text-md-left">
-                        <a role="button" href="tel:+18181231234" class="btn btn-link"><span class="fa fa-phone"></span> +1-818-123-1234</a>
+                <div className="row mt-4">
+                    <div className="col text-center text-sm-end">
+                        <h4>Call Us</h4>
+                    </div>
+                    <div className="col-12 col-sm text-center text-sm-start  ">
+                        <a role="button" href="tel:+18181231234" className="btn btn-link"><span className="fa fa-phone"></span> +1-818-123-1234</a>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-12 col-lg-4 col-md-5 text-center text-md-right ">
+                <div className="row justify-content-center">
+                    <div className="col text-center text-sm-end ">
                         <h4>Email Us</h4>
                     </div>
-                    <div class="col-xs-12 col-sm col-lg-5 text-center text-md-left">
-                        <a role="button" href="mailto:goldydogsend@CalabasasSpeech.com" class="btn btn-link"><span class="fa fa-envelope"></span> goldydogsent@CalSpeech.com</a>
+                    <div className="col ext-center text-sm-start ">
+                        <a role="button" href="mailto:goldydogsend@CalabasasSpeech.com" className="btn btn-link"><span className="fa fa-envelope"></span> goldydogsent@CalSpeech.com</a>
                     </div>
                 </div>
+                <div className="row">
                     <div className="col col-md-9 mt-3 mx-auto">
-                        <Form model="contactUsForm" className="contactUsForm" onSubmit={values => this.handleSubmit(values)}>
+                        <Form model="contactUsForm" className="contactUsForm mb-5" onSubmit={values => this.handleSubmit(values)}>
                             <Row className="form-group">
                                 <Label sm={3} htmlFor="clientName">Name</Label>
                                 <Col>
@@ -94,44 +96,44 @@ export default class ContactUs extends Component {
                                 <Col className="d-none d-md-block">Times</Col>
                                 <Col className="d-block d-md-none text-center">Days & Times</Col>
                             </Row>
-                            <div className="form-check">
+                            <div className="form-group">
                                 <Col>
                                     <Row>
                                         <Col>
                                             <Label check className="label-formatting">
                                                 <Col>
                                                     {/* eslint-disable-next-line */}
-                                                    <Control.checkbox model=".monday" name="monday" className="form-check-input center" /> Monday
+                                                    <Control.checkbox model=".monday" name="monday" className="form-check-input center checkboxFormat" /> Monday
                                                 </Col>
                                             </Label>
                                             <Label check className="label-formatting">
                                                 <Col>
                                                     {/* eslint-disable-next-line */}
-                                                    <Control.checkbox model=".tuesday" name="tuesday" className="form-check-input center" /> Tuesday
+                                                    <Control.checkbox model=".tuesday" name="tuesday" className="form-check-input center checkboxFormat" /> Tuesday
                                                 </Col>
                                             </Label>
                                             <Label check className="label-formatting">
                                                 <Col>
                                                     {/* eslint-disable-next-line */}
-                                                    <Control.checkbox model=".wednesday" name="wednesday" className="form-check-input center" /> Wednesday
+                                                    <Control.checkbox model=".wednesday" name="wednesday" className="form-check-input center checkboxFormat" /> Wednesday
                                                 </Col>
                                             </Label>
                                             <Label check className="label-formatting">
                                                 <Col>
                                                     {/* eslint-disable-next-line */}
-                                                    <Control.checkbox model=".thursday" name="thursday" className="form-check-input center" /> Thursday
+                                                    <Control.checkbox model=".thursday" name="thursday" className="form-check-input center checkboxFormat" /> Thursday
                                                 </Col>
                                             </Label>
                                             <Label check className="label-formatting">
                                                 <Col>
                                                     {/* eslint-disable-next-line */}
-                                                    <Control.checkbox model=".friday" name="friday" className="form-check-input center" /> Friday
+                                                    <Control.checkbox model=".friday" name="friday" className="form-check-input center checkboxFormat" /> Friday
                                                 </Col>
                                             </Label>
                                             <Label check className="label-formatting">
                                                 <Col>
                                                     {/* eslint-disable-next-line */}
-                                                    <Control.checkbox model=".saturday" name="saturday" className="form-check-input center" /> Saturday
+                                                    <Control.checkbox model=".saturday" name="saturday" className="form-check-input center checkboxFormat" /> Saturday
                                                 </Col>
                                             </Label>
                                             
@@ -140,19 +142,19 @@ export default class ContactUs extends Component {
                                             <Label check className="label-formatting">
                                                 <Col>
                                                     {/* eslint-disable-next-line */}
-                                                    <Control.checkbox model=".time812" name="time812" className="form-check-input center" /> 8am-12noon
+                                                    <Control.checkbox model=".time812" name="time812" className="form-check-input center checkboxFormat" /> 8am-12noon
                                                 </Col>
                                             </Label>
                                             <Label check className="label-formatting">
                                                 <Col>
                                                     {/* eslint-disable-next-line */}
-                                                    <Control.checkbox model=".time125" name="time125" className="form-check-input center" /> 12noon-5pm
+                                                    <Control.checkbox model=".time125" name="time125" className="form-check-input center checkboxFormat" /> 12noon-5pm
                                                 </Col>
                                             </Label>
                                             <Label check className="label-formatting">
                                                 <Col>
                                                     {/* eslint-disable-next-line */}
-                                                    <Control.checkbox model=".time59" name="time59" className="form-check-input center" /> 5pm-9pm
+                                                    <Control.checkbox model=".time59" name="time59" className="form-check-input center checkboxFormat" /> 5pm-9pm
                                                 </Col>
                                             </Label>
                                         </Col>

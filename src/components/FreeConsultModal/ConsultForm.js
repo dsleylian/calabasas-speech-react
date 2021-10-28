@@ -27,32 +27,32 @@ export default function ConsultForm(){
                         <Col>
                             <Label check className="label-formatting">
                                 <Col>
-                                    <Input className="center" type="checkbox" name="days" /> Monday
+                                    <Input className="center checkboxFormatConsult" type="checkbox" name="days" /> Monday
                                 </Col>
                             </Label>
                             <Label check className="label-formatting">
                                 <Col>
-                                    <Input className="center" type="checkbox" name="tuesday" /> Tuesday
+                                    <Input className="center checkboxFormatConsult" type="checkbox" name="tuesday" /> Tuesday
                                 </Col>
                             </Label>
                             <Label check className="label-formatting">
                                 <Col>
-                                    <Input className="center" type="checkbox" name="days" /> Wednesday
+                                    <Input className="center checkboxFormatConsult" type="checkbox" name="days" /> Wednesday
                                 </Col>
                             </Label>
                             <Label check className="label-formatting">
                                 <Col>
-                                    <Input className="center" type="checkbox" name="days"  /> Thursday
+                                    <Input className="center checkboxFormatConsult" type="checkbox" name="days"  /> Thursday
                                 </Col>
                             </Label>
                             <Label check className="label-formatting">
                                 <Col>
-                                    <Input className="center" type="checkbox" name="days"  /> Friday
+                                    <Input className="center checkboxFormatConsult" type="checkbox" name="days"  /> Friday
                                 </Col>
                             </Label>
                             <Label check className="label-formatting">
                                 <Col>
-                                    <Input className="center" type="checkbox" name="days" /> Saturday
+                                    <Input className="center checkboxFormatConsult" type="checkbox" name="days" /> Saturday
                                 </Col>
                             </Label>
                             
@@ -60,17 +60,17 @@ export default function ConsultForm(){
                         <Col>
                             <Label check className="label-formatting">
                                 <Col>
-                                    <Input className="center" type="checkbox" name="times"  /> 8am-12noon
+                                    <Input className="center checkboxFormatConsult" type="checkbox" name="times"  /> 8am-12noon
                                 </Col>
                             </Label>
                             <Label check className="label-formatting">
                                 <Col>
-                                    <Input className="center" type="checkbox" name="times"  /> 12noon-5pm
+                                    <Input className="center checkboxFormatConsult" type="checkbox" name="times"  /> 12noon-5pm
                                 </Col>
                             </Label>
                             <Label check className="label-formatting">
                                 <Col>
-                                    <Input className="center" type="checkbox" name="times" /> 5pm-9pm
+                                    <Input className="center checkboxFormatConsult" type="checkbox" name="times" /> 5pm-9pm
                                 </Col>
                             </Label>
                         </Col>
