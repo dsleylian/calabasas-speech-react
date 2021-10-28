@@ -1,7 +1,7 @@
 export const meetTheTeamData = [
     { 
         id: 0,
-        image: "/images/goldenfounder.jpg",
+        image: "../images/goldenfounder.jpg",
         alt: "This golden retriver founded Calabasas Speech",
         title: "Goldy Dogsend",
         credentials: "MS CCC-SLP",
@@ -11,7 +11,7 @@ export const meetTheTeamData = [
     },
     { 
         id: 1,
-        image: "/images/pug.jpg",
+        image: "../images/pug.jpg",
         alt: "pug veteran SLP",
         title: "Puggy Blackfur",
         credentials: "MS CCC-SLP",
@@ -21,7 +21,7 @@ export const meetTheTeamData = [
     },
     { 
         id: 2,
-        image: "/images/puppybandana.jpg",
+        image: "../images/puppybandana.jpg",
         alt: "Puppy slpa wearing bandana",
         title: "Libby Happyface",
         credentials: "BS SLP-A",
@@ -30,8 +30,8 @@ export const meetTheTeamData = [
         button: "Libby",
     },
     { 
-        id: 3,
-        image: "/images/goldenpuppy.jpg",
+        id: 4,
+        image: "../images/goldenpuppy.jpg",
         alt: "golden puppy newest addition",
         title: "Flip Fetchinson",
         credentials: "BS SLP-A",
