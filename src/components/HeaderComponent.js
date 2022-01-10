@@ -43,8 +43,15 @@ function Header() {
 
     return(
         <React.Fragment>
+            
             <Jumbotron fluid id="jumbotron">
+                
                 <div className="container jumbocotainer" >
+                <div className="row">
+                    <div id="landing-link"> 
+                        <a href="https://cs-info.vercel.app/">Back to Landing Page</a>
+                    </div>
+                </div>
                     <div className="row align-items-center ">
                         <div className="col col-lg-3">
                             <a href="/"><img id="logo" src={logo} alt="Calabasas Speech logo" width="300"/></a>
