@@ -42,7 +42,7 @@ export default class ContactUs extends Component {
                     <h3 className="text-center mt-3">Contact Us </h3>
                 </div>
                 <div className="row mt-4">
-                    <div className="col text-center text-sm-end">
+                    <div className="col col-sm-12 text-center text-sm-end">
                         <h4>Call Us</h4>
                     </div>
                     <div className="col-12 col-sm text-center text-sm-start  ">
@@ -50,10 +50,10 @@ export default class ContactUs extends Component {
                     </div>
                 </div>
                 <div className="row justify-content-center">
-                    <div className="col text-center text-sm-end ">
+                    <div className="col  text-center text-sm-end ">
                         <h4>Email Us</h4>
                     </div>
-                    <div className="col ext-center text-sm-start ">
+                    <div className="col col-sm-12 text-center text-sm-start ">
                         <a role="button" href="mailto:goldydogsend@CalabasasSpeech.com" className="btn btn-link"><span className="fa fa-envelope"></span> goldydogsent@CalSpeech.com</a>
                     </div>
                 </div>
