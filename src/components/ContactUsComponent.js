@@ -42,18 +42,18 @@ export default class ContactUs extends Component {
                     <h3 className="text-center mt-3">Contact Us </h3>
                 </div>
                 <div className="row mt-4">
-                    <div className="col col-sm-12 text-center text-sm-end">
+                    <div className="col col-sm-12 text-center ">
                         <h4>Call Us</h4>
                     </div>
-                    <div className="col-12 col-sm-12 text-center text-sm-start  ">
+                    <div className="col-12 col-sm-12 text-center ">
                         <a role="button" href="tel:+18181231234" className="btn btn-link"><span className="fa fa-phone"></span> +1-818-123-1234</a>
                     </div>
                 </div>
                 <div className="row justify-content-center">
-                    <div className="col col-sm-12  text-center text-sm-end ">
+                    <div className="col col-sm-12  text-center ">
                         <h4>Email Us</h4>
                     </div>
-                    <div className="col col-sm-12 text-center text-sm-start ">
+                    <div className="col col-sm-12 text-center  ">
                         <a role="button" href="mailto:goldydogsend@CalabasasSpeech.com" className="btn btn-link"><span className="fa fa-envelope"></span> goldydogsent@CalSpeech.com</a>
                     </div>
                 </div>
