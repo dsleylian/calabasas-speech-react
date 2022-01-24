@@ -45,7 +45,7 @@ export default class ContactUs extends Component {
                     <div className="col col-sm-12 text-center text-sm-end">
                         <h4>Call Us</h4>
                     </div>
-                    <div className="col-12 col-sm text-center text-sm-start  ">
+                    <div className="col-12 col-sm-12 text-center text-sm-start  ">
                         <a role="button" href="tel:+18181231234" className="btn btn-link"><span className="fa fa-phone"></span> +1-818-123-1234</a>
                     </div>
                 </div>
