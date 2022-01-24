@@ -50,7 +50,7 @@ export default class ContactUs extends Component {
                     </div>
                 </div>
                 <div className="row justify-content-center">
-                    <div className="col  text-center text-sm-end ">
+                    <div className="col col-sm-12  text-center text-sm-end ">
                         <h4>Email Us</h4>
                     </div>
                     <div className="col col-sm-12 text-center text-sm-start ">
