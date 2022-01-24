@@ -50,10 +50,10 @@ export default class ContactUs extends Component {
                     </div>
                 </div>
                 <div className="row justify-content-center">
-                    <div className="col col-sm-12  text-center ">
+                    <div className="col-12  text-center ">
                         <h4>Email Us</h4>
                     </div>
-                    <div className="col col-sm-12 text-center  ">
+                    <div className="col-12 text-center  ">
                         <a role="button" href="mailto:goldydogsend@CalabasasSpeech.com" className="btn btn-link"><span className="fa fa-envelope"></span> goldydogsent@CalSpeech.com</a>
                     </div>
                 </div>
