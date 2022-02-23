@@ -22,9 +22,9 @@ function Footer(props){
                         <a role="button" target="_blank" rel="noreferrer" className="btn btn-link footer-link" href="https://www.google.com/maps/"><i className="fa fa-map-marker" /> 123 Ficitonal Road,  Calabasas, CA, 91302 </a>
                     </div>
                     <div className=" col-md-3 text-center my-auto">
-                        <a className="btn btn-social-icon btn-instagram mx-sm-1 mx-2" href="http://instagram.com/"><i className="fa fa-instagram" /></a>
-                        <a className="btn btn-social-icon btn-facebook mx-sm-1 mx-2" href="http://www.facebook.com/"><i className="fa fa-facebook" /></a>
-                        <a className="btn btn-social-icon btn-twitter mx-sm-1 mx-2" href="http://twitter.com/"><i className="fa fa-twitter" /></a>
+                        <a className="btn btn-social-icon btn-instagram mx-sm-1 mx-2" href="https://www.instagram.com/darya.puzzledorffer/" target="_blank" rel="noreferrer"><i className="fa fa-instagram" /></a>
+                        <a className="btn btn-social-icon btn-linkedin mx-sm-1 mx-2" href="https://www.linkedin.com/in/darya-leylian-a1a62057/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin" /></a>
+                        <a className="btn btn-social-icon btn-youtube mx-sm-1 mx-2" href="https://www.youtube.com/channel/UCOJVqoHkVjwRxJqYImzi_dA" target="_blank" rel="noreferrer"><i className="fa fa-youtube" /></a>
                     </div>
                     <div className="row">
                     <div id="landing-link-footer"> 

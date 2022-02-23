@@ -35,11 +35,8 @@ export default function Milestones() {
                 </div>
             </div>
             <div className="row align-items-center">
-                <div className="col-12 col-md-5">
-                    <p className="milestone-title">If you have any concerns</p>
-                </div>
-                <div className="col">
-                    <p>Please <Link to='/contactus'>contact us</Link> for a free consultation.</p>
+                <div className="col-12 text-center mt-4 mb-3">
+                    <p className="milestone-title">If you have any concerns, please <Link to='/contactus'>contact us</Link> for a free consultation.</p>
                 </div>
             </div>
         </div>

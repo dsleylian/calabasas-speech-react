@@ -28,7 +28,7 @@ export default class LetUsKnowModal extends Component {
                                             <Input className="center checkboxFormat" type="radio" name="grouptherapy"  id="yes" innerRef={input => this.grouptherapy = input} /> Yes
                                         </Col>
                                     </Label>
-                                    <Label >
+                                    <Label className="label-formatting">
                                         <Col>
                                             <Input className="center checkboxFormat"  type="radio" name="grouptherapy"  id="no" innerRef={input => this.grouptherapy = input} /> No
                                         </Col>

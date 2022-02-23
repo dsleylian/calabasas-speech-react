@@ -241,14 +241,18 @@ font-size: 22px; }
     margin-right: 2px;
 }
 
+.radioFormat {
+    margin-top: 13px !important;
+}
+
 .checkboxFormatConsult {
     margin-top: 13px !important;
     margin-right: 5px;
 }
 
 .label-formatting {
-    padding-right: 20x;
-    padding-left: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 #commentSubmitButton {
